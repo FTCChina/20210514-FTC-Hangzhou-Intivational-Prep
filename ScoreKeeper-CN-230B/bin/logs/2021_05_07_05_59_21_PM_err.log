@@ -1,0 +1,115 @@
+17:59:21,375 |-INFO in ch.qos.logback.classic.LoggerContext[default] - Could NOT find resource [logback-test.xml]
+17:59:21,376 |-INFO in ch.qos.logback.classic.LoggerContext[default] - Could NOT find resource [logback.groovy]
+17:59:21,377 |-INFO in ch.qos.logback.classic.LoggerContext[default] - Found resource [logback.xml] at [jar:file:/E:/Programming/Robotics/20210514-FTC-Hangzhou-Intivational-Prep/ScoreKeeper-CN-230B/lib/FTCCommon-v2.3.0.jar!/logback.xml]
+17:59:21,377 |-WARN in ch.qos.logback.classic.LoggerContext[default] - Resource [logback.xml] occurs multiple times on the classpath.
+17:59:21,377 |-WARN in ch.qos.logback.classic.LoggerContext[default] - Resource [logback.xml] occurs at [jar:file:/E:/Programming/Robotics/20210514-FTC-Hangzhou-Intivational-Prep/ScoreKeeper-CN-230B/lib/FTCLocal-v2.3.0.jar!/logback.xml]
+17:59:21,377 |-WARN in ch.qos.logback.classic.LoggerContext[default] - Resource [logback.xml] occurs at [jar:file:/E:/Programming/Robotics/20210514-FTC-Hangzhou-Intivational-Prep/ScoreKeeper-CN-230B/lib/FTCCommon-v2.3.0.jar!/logback.xml]
+17:59:21,392 |-INFO in ch.qos.logback.core.joran.spi.ConfigurationWatchList@1b083826 - URL [jar:file:/E:/Programming/Robotics/20210514-FTC-Hangzhou-Intivational-Prep/ScoreKeeper-CN-230B/lib/FTCCommon-v2.3.0.jar!/logback.xml] is not of type file
+17:59:21,455 |-INFO in ch.qos.logback.classic.joran.action.ConfigurationAction - debug attribute not set
+17:59:21,456 |-INFO in ch.qos.logback.core.joran.action.AppenderAction - About to instantiate appender of type [ch.qos.logback.core.ConsoleAppender]
+17:59:21,465 |-INFO in ch.qos.logback.core.joran.action.AppenderAction - Naming appender as [Console]
+17:59:21,474 |-INFO in ch.qos.logback.core.joran.action.NestedComplexPropertyIA - Assuming default type [ch.qos.logback.classic.encoder.PatternLayoutEncoder] for [encoder] property
+17:59:21,505 |-INFO in ch.qos.logback.core.joran.action.AppenderAction - About to instantiate appender of type [io.sentry.logback.SentryAppender]
+17:59:21,508 |-INFO in ch.qos.logback.core.joran.action.AppenderAction - Naming appender as [Sentry]
+17:59:21,512 |-INFO in ch.qos.logback.core.joran.action.NestedComplexPropertyIA - Assuming default type [ch.qos.logback.classic.encoder.PatternLayoutEncoder] for [encoder] property
+17:59:21,513 |-INFO in ch.qos.logback.classic.joran.action.RootLoggerAction - Setting level of ROOT logger to INFO
+17:59:21,514 |-INFO in ch.qos.logback.core.joran.action.AppenderRefAction - Attaching appender named [Console] to Logger[ROOT]
+17:59:21,514 |-INFO in ch.qos.logback.core.joran.action.AppenderRefAction - Attaching appender named [Sentry] to Logger[ROOT]
+17:59:21,514 |-INFO in ch.qos.logback.classic.joran.action.ConfigurationAction - End of configuration.
+17:59:21,515 |-INFO in ch.qos.logback.classic.joran.JoranConfigurator@105fece7 - Registering current configuration as safe fallback point
+
+17:59:21.566 [main] INFO  org.eclipse.jetty.util.log - Logging initialized @755ms to org.eclipse.jetty.util.log.Slf4jLog
+Checking to see if new accounts need to be created for hz_invitational_21
+Accounts had not been generated for hz_invitational_21 - none missing to create
+17:59:22.804 [Thread-10] INFO  o.u.f.e.i.SQLiteInspectionDAO - Inspection updater started!
+17:59:22.940 [main] INFO  org.usfirst.ftc.event.EventsManager - Loaded active event hz_invitational_21
+17:59:22.951 [main] INFO  org.usfirst.ftc.server.Server - Attempting to start server on port 80
+17:59:22.957 [main] INFO  s.s.StaticFilesConfiguration - StaticResourceHandler configured with folder = /public
+17:59:22.959 [main] INFO  s.s.StaticFilesConfiguration - External StaticResourceHandler configured with folder = ../uploads
+17:59:23.110 [Thread-23] INFO  s.e.jetty.EmbeddedJettyServer - == Spark has ignited ...
+17:59:23.110 [Thread-23] INFO  s.e.jetty.EmbeddedJettyServer - >> Listening on 0.0.0.0:80
+17:59:23.112 [Thread-23] INFO  org.eclipse.jetty.server.Server - jetty-9.4.18.v20190429; built: 2019-04-29T20:42:08.989Z; git: e1bc35120a6617ee3df052294e433f3a25ce7097; jvm 15.0.2+7-27
+17:59:23.133 [Thread-23] INFO  org.eclipse.jetty.server.session - DefaultSessionIdManager workerName=node0
+17:59:23.133 [Thread-23] INFO  org.eclipse.jetty.server.session - No SessionScavenger set, using defaults
+17:59:23.135 [Thread-23] INFO  org.eclipse.jetty.server.session - node0 Scavenging every 660000ms
+17:59:23.137 [Thread-23] INFO  o.e.j.server.handler.ContextHandler - Started o.e.j.s.h.ContextHandler@2ddf6c6b{/,null,AVAILABLE}
+17:59:23.138 [Thread-23] INFO  o.e.j.server.handler.ContextHandler - Started o.e.j.s.h.ContextHandler@3933547e{/apiv1,null,AVAILABLE}
+17:59:23.138 [Thread-23] INFO  o.e.j.server.handler.ContextHandler - Started o.e.j.s.h.ContextHandler@78f28e3d{/api,null,AVAILABLE}
+17:59:23.145 [Thread-23] INFO  o.e.j.server.handler.ContextHandler - Started o.e.j.s.ServletContextHandler@64ef0a80{/,null,AVAILABLE}
+17:59:23.153 [Thread-23] INFO  o.e.jetty.server.AbstractConnector - Started ServerConnector@3ec3f3a9{HTTP/1.1,[http/1.1]}{0.0.0.0:80}
+17:59:23.153 [Thread-23] INFO  org.eclipse.jetty.server.Server - Started @2346ms
+17:59:23.154 [main] INFO  org.usfirst.ftc.server.Server - Server started on port 80
+17:59:23.879 [main] INFO  org.usfirst.ftc.server.Server - Launching browser for OS: Windows 10
+17:59:24.519 [qtp1029917728-42] INFO  org.usfirst.ftc.server.Server - Time: 05/07/2021 05:59:24:519 PM, Session: node01xqxnecw9hwgv29sgqrktugn70, Route: http://localhost/ GET
+17:59:24.543 [qtp1029917728-44] INFO  org.usfirst.ftc.server.Server - Time: 05/07/2021 05:59:24:543 PM, Session: node01xqxnecw9hwgv29sgqrktugn70, Route: http://localhost/event/hz_invitational_21/ GET
+17:59:27.027 [qtp1029917728-42] INFO  org.usfirst.ftc.server.Server - Time: 05/07/2021 05:59:27:027 PM, Session: node01xqxnecw9hwgv29sgqrktugn70, Route: http://localhost/event/hz_invitational_21/dashboard/teams/ GET
+17:59:27.044 [qtp1029917728-44] INFO  org.usfirst.ftc.server.Server - Time: 05/07/2021 05:59:27:044 PM, Session: node01xqxnecw9hwgv29sgqrktugn70, Route: http://localhost/login/ GET
+17:59:29.429 [qtp1029917728-43] INFO  org.usfirst.ftc.server.Server - Time: 05/07/2021 05:59:29:429 PM, Session: node01xqxnecw9hwgv29sgqrktugn70, Route: http://localhost/callback/ POST
+17:59:29.454 [qtp1029917728-44] INFO  org.usfirst.ftc.server.Server - Time: 05/07/2021 05:59:29:454 PM, Session: node018l6x7j3scgbnkl087e1qb7o61, Route: http://localhost/event/hz_invitational_21/dashboard/teams/ GET
+17:59:29.738 [qtp1029917728-43] INFO  org.usfirst.ftc.server.Server - Time: 05/07/2021 05:59:29:738 PM, Session: node018l6x7j3scgbnkl087e1qb7o61, Route: http://localhost/event/hz_invitational_21/dashboard/teams/data/ GET
+17:59:29.761 [qtp1029917728-44] INFO  org.usfirst.ftc.server.Server - Time: 05/07/2021 05:59:29:759 PM, Session: node018l6x7j3scgbnkl087e1qb7o61, Route: http://localhost/teams/countries/ GET
+17:59:30.393 [qtp1029917728-43] INFO  org.usfirst.ftc.server.Server - Time: 05/07/2021 05:59:30:393 PM, Session: node018l6x7j3scgbnkl087e1qb7o61, Route: http://localhost/teams/states/?country=USA GET
+17:59:30.444 [qtp1029917728-44] INFO  org.usfirst.ftc.server.Server - Time: 05/07/2021 05:59:30:444 PM, Session: node018l6x7j3scgbnkl087e1qb7o61, Route: http://localhost/teams/location/?country=USA&state=AE GET
+17:59:32.662 [qtp1029917728-43] INFO  org.usfirst.ftc.server.Server - Time: 05/07/2021 05:59:32:662 PM, Session: node018l6x7j3scgbnkl087e1qb7o61, Route: http://localhost/event/hz_invitational_21/dashboard/teams/4/ DELETE
+17:59:34.861 [qtp1029917728-44] INFO  org.usfirst.ftc.server.Server - Time: 05/07/2021 05:59:34:860 PM, Session: node018l6x7j3scgbnkl087e1qb7o61, Route: http://localhost/event/hz_invitational_21/dashboard/ GET
+17:59:36.263 [qtp1029917728-43] INFO  org.usfirst.ftc.server.Server - Time: 05/07/2021 05:59:36:263 PM, Session: node018l6x7j3scgbnkl087e1qb7o61, Route: http://localhost/event/hz_invitational_21/dashboard/teams/ GET
+17:59:36.552 [qtp1029917728-44] INFO  org.usfirst.ftc.server.Server - Time: 05/07/2021 05:59:36:552 PM, Session: node018l6x7j3scgbnkl087e1qb7o61, Route: http://localhost/event/hz_invitational_21/dashboard/teams/data/ GET
+17:59:36.565 [qtp1029917728-43] INFO  org.usfirst.ftc.server.Server - Time: 05/07/2021 05:59:36:565 PM, Session: node018l6x7j3scgbnkl087e1qb7o61, Route: http://localhost/teams/countries/ GET
+17:59:37.203 [qtp1029917728-39] INFO  org.usfirst.ftc.server.Server - Time: 05/07/2021 05:59:37:203 PM, Session: node018l6x7j3scgbnkl087e1qb7o61, Route: http://localhost/teams/states/?country=USA GET
+17:59:37.244 [qtp1029917728-43] INFO  org.usfirst.ftc.server.Server - Time: 05/07/2021 05:59:37:244 PM, Session: node018l6x7j3scgbnkl087e1qb7o61, Route: http://localhost/teams/location/?country=USA&state=AE GET
+17:59:43.453 [qtp1029917728-39] INFO  org.usfirst.ftc.server.Server - Time: 05/07/2021 05:59:43:452 PM, Session: node018l6x7j3scgbnkl087e1qb7o61, Route: http://localhost/event/hz_invitational_21/dashboard/ GET
+17:59:44.722 [qtp1029917728-43] INFO  org.usfirst.ftc.server.Server - Time: 05/07/2021 05:59:44:722 PM, Session: node018l6x7j3scgbnkl087e1qb7o61, Route: http://localhost/event/hz_invitational_21/dashboard/teams/ GET
+17:59:44.975 [qtp1029917728-39] INFO  org.usfirst.ftc.server.Server - Time: 05/07/2021 05:59:44:975 PM, Session: node018l6x7j3scgbnkl087e1qb7o61, Route: http://localhost/event/hz_invitational_21/dashboard/teams/data/ GET
+17:59:44.992 [qtp1029917728-43] INFO  org.usfirst.ftc.server.Server - Time: 05/07/2021 05:59:44:992 PM, Session: node018l6x7j3scgbnkl087e1qb7o61, Route: http://localhost/teams/countries/ GET
+17:59:45.680 [qtp1029917728-39] INFO  org.usfirst.ftc.server.Server - Time: 05/07/2021 05:59:45:680 PM, Session: node018l6x7j3scgbnkl087e1qb7o61, Route: http://localhost/teams/states/?country=USA GET
+17:59:45.727 [qtp1029917728-43] INFO  org.usfirst.ftc.server.Server - Time: 05/07/2021 05:59:45:727 PM, Session: node018l6x7j3scgbnkl087e1qb7o61, Route: http://localhost/teams/location/?country=USA&state=AE GET
+18:00:12.808 [Thread-10] INFO  o.u.f.e.i.SQLiteInspectionDAO - Inspection updater going idle due to inactivity.
+18:00:13.351 [qtp1029917728-39] INFO  org.usfirst.ftc.server.Server - Time: 05/07/2021 06:00:13:351 PM, Session: node018l6x7j3scgbnkl087e1qb7o61, Route: http://localhost/event/hz_invitational_21/dashboard/teams/edit/ POST
+18:00:22.532 [qtp1029917728-43] INFO  org.usfirst.ftc.server.Server - Time: 05/07/2021 06:00:22:532 PM, Session: node018l6x7j3scgbnkl087e1qb7o61, Route: http://localhost/event/hz_invitational_21/dashboard/teams/edit/ POST
+18:00:40.635 [qtp1029917728-39] INFO  org.usfirst.ftc.server.Server - Time: 05/07/2021 06:00:40:635 PM, Session: node018l6x7j3scgbnkl087e1qb7o61, Route: http://localhost/event/hz_invitational_21/dashboard/teams/edit/ POST
+18:00:47.717 [qtp1029917728-38] INFO  org.usfirst.ftc.server.Server - Time: 05/07/2021 06:00:47:717 PM, Session: node018l6x7j3scgbnkl087e1qb7o61, Route: http://localhost/event/hz_invitational_21/dashboard/teams/edit/ POST
+18:01:06.653 [qtp1029917728-39] INFO  org.usfirst.ftc.server.Server - Time: 05/07/2021 06:01:06:653 PM, Session: node018l6x7j3scgbnkl087e1qb7o61, Route: http://localhost/event/hz_invitational_21/dashboard/teams/edit/ POST
+18:01:40.602 [qtp1029917728-43] INFO  org.usfirst.ftc.server.Server - Time: 05/07/2021 06:01:40:602 PM, Session: node018l6x7j3scgbnkl087e1qb7o61, Route: http://localhost/event/hz_invitational_21/dashboard/teams/edit/ POST
+18:02:09.445 [qtp1029917728-39] INFO  org.usfirst.ftc.server.Server - Time: 05/07/2021 06:02:09:445 PM, Session: node018l6x7j3scgbnkl087e1qb7o61, Route: http://localhost/event/hz_invitational_21/dashboard/teams/edit/ POST
+18:02:27.802 [qtp1029917728-43] INFO  org.usfirst.ftc.server.Server - Time: 05/07/2021 06:02:27:802 PM, Session: node018l6x7j3scgbnkl087e1qb7o61, Route: http://localhost/event/hz_invitational_21/dashboard/teams/edit/ POST
+18:02:49.847 [qtp1029917728-38] INFO  org.usfirst.ftc.server.Server - Time: 05/07/2021 06:02:49:847 PM, Session: node018l6x7j3scgbnkl087e1qb7o61, Route: http://localhost/event/hz_invitational_21/dashboard/teams/edit/ POST
+18:03:17.793 [qtp1029917728-43] INFO  org.usfirst.ftc.server.Server - Time: 05/07/2021 06:03:17:792 PM, Session: node018l6x7j3scgbnkl087e1qb7o61, Route: http://localhost/event/hz_invitational_21/dashboard/teams/edit/ POST
+18:03:42.140 [qtp1029917728-38] INFO  org.usfirst.ftc.server.Server - Time: 05/07/2021 06:03:42:140 PM, Session: node018l6x7j3scgbnkl087e1qb7o61, Route: http://localhost/event/hz_invitational_21/dashboard/teams/edit/ POST
+18:04:15.590 [qtp1029917728-45] INFO  org.usfirst.ftc.server.Server - Time: 05/07/2021 06:04:15:590 PM, Session: node018l6x7j3scgbnkl087e1qb7o61, Route: http://localhost/event/hz_invitational_21/dashboard/teams/edit/ POST
+18:23:47.667 [qtp1029917728-43] INFO  org.usfirst.ftc.server.Server - Time: 05/07/2021 06:23:47:667 PM, Session: node018l6x7j3scgbnkl087e1qb7o61, Route: http://localhost/event/hz_invitational_21/dashboard/teams/edit/ POST
+18:24:14.945 [qtp1029917728-41] INFO  org.usfirst.ftc.server.Server - Time: 05/07/2021 06:24:14:945 PM, Session: node018l6x7j3scgbnkl087e1qb7o61, Route: http://localhost/event/hz_invitational_21/dashboard/teams/edit/ POST
+18:24:45.213 [qtp1029917728-53] INFO  org.usfirst.ftc.server.Server - Time: 05/07/2021 06:24:45:213 PM, Session: node018l6x7j3scgbnkl087e1qb7o61, Route: http://localhost/event/hz_invitational_21/dashboard/teams/edit/ POST
+18:25:07.260 [qtp1029917728-41] INFO  org.usfirst.ftc.server.Server - Time: 05/07/2021 06:25:07:260 PM, Session: node018l6x7j3scgbnkl087e1qb7o61, Route: http://localhost/event/hz_invitational_21/dashboard/teams/edit/ POST
+18:25:30.893 [qtp1029917728-53] INFO  org.usfirst.ftc.server.Server - Time: 05/07/2021 06:25:30:893 PM, Session: node018l6x7j3scgbnkl087e1qb7o61, Route: http://localhost/event/hz_invitational_21/dashboard/teams/edit/ POST
+18:26:14.744 [qtp1029917728-45] INFO  org.usfirst.ftc.server.Server - Time: 05/07/2021 06:26:14:743 PM, Session: node018l6x7j3scgbnkl087e1qb7o61, Route: http://localhost/event/hz_invitational_21/dashboard/teams/edit/ POST
+18:26:39.444 [qtp1029917728-53] INFO  org.usfirst.ftc.server.Server - Time: 05/07/2021 06:26:39:444 PM, Session: node018l6x7j3scgbnkl087e1qb7o61, Route: http://localhost/event/hz_invitational_21/dashboard/teams/edit/ POST
+18:26:55.644 [qtp1029917728-54] INFO  org.usfirst.ftc.server.Server - Time: 05/07/2021 06:26:55:644 PM, Session: node018l6x7j3scgbnkl087e1qb7o61, Route: http://localhost/event/hz_invitational_21/dashboard/teams/edit/ POST
+18:27:11.011 [qtp1029917728-53] INFO  org.usfirst.ftc.server.Server - Time: 05/07/2021 06:27:11:011 PM, Session: node018l6x7j3scgbnkl087e1qb7o61, Route: http://localhost/event/hz_invitational_21/dashboard/teams/edit/ POST
+18:27:30.566 [qtp1029917728-54] INFO  org.usfirst.ftc.server.Server - Time: 05/07/2021 06:27:30:566 PM, Session: node018l6x7j3scgbnkl087e1qb7o61, Route: http://localhost/event/hz_invitational_21/dashboard/teams/edit/ POST
+18:27:51.014 [qtp1029917728-53] INFO  org.usfirst.ftc.server.Server - Time: 05/07/2021 06:27:51:014 PM, Session: node018l6x7j3scgbnkl087e1qb7o61, Route: http://localhost/event/hz_invitational_21/dashboard/teams/edit/ POST
+18:29:04.339 [qtp1029917728-52] INFO  org.usfirst.ftc.server.Server - Time: 05/07/2021 06:29:04:339 PM, Session: node018l6x7j3scgbnkl087e1qb7o61, Route: http://localhost/event/hz_invitational_21/dashboard/teams/edit/ POST
+18:29:22.550 [qtp1029917728-41] INFO  org.usfirst.ftc.server.Server - Time: 05/07/2021 06:29:22:550 PM, Session: node018l6x7j3scgbnkl087e1qb7o61, Route: http://localhost/event/hz_invitational_21/dashboard/teams/edit/ POST
+18:29:46.906 [qtp1029917728-52] INFO  org.usfirst.ftc.server.Server - Time: 05/07/2021 06:29:46:906 PM, Session: node018l6x7j3scgbnkl087e1qb7o61, Route: http://localhost/event/hz_invitational_21/dashboard/teams/edit/ POST
+18:30:17.936 [qtp1029917728-41] INFO  org.usfirst.ftc.server.Server - Time: 05/07/2021 06:30:17:936 PM, Session: node018l6x7j3scgbnkl087e1qb7o61, Route: http://localhost/event/hz_invitational_21/dashboard/teams/edit/ POST
+18:30:51.684 [qtp1029917728-45] INFO  org.usfirst.ftc.server.Server - Time: 05/07/2021 06:30:51:684 PM, Session: node018l6x7j3scgbnkl087e1qb7o61, Route: http://localhost/event/hz_invitational_21/dashboard/teams/edit/ POST
+18:31:23.784 [qtp1029917728-41] INFO  org.usfirst.ftc.server.Server - Time: 05/07/2021 06:31:23:784 PM, Session: node018l6x7j3scgbnkl087e1qb7o61, Route: http://localhost/event/hz_invitational_21/dashboard/teams/edit/ POST
+18:31:45.721 [qtp1029917728-54] INFO  org.usfirst.ftc.server.Server - Time: 05/07/2021 06:31:45:721 PM, Session: node018l6x7j3scgbnkl087e1qb7o61, Route: http://localhost/event/hz_invitational_21/dashboard/teams/edit/ POST
+18:32:03.460 [qtp1029917728-41] INFO  org.usfirst.ftc.server.Server - Time: 05/07/2021 06:32:03:460 PM, Session: node018l6x7j3scgbnkl087e1qb7o61, Route: http://localhost/event/hz_invitational_21/dashboard/teams/edit/ POST
+18:32:27.303 [qtp1029917728-54] INFO  org.usfirst.ftc.server.Server - Time: 05/07/2021 06:32:27:303 PM, Session: node018l6x7j3scgbnkl087e1qb7o61, Route: http://localhost/event/hz_invitational_21/dashboard/teams/edit/ POST
+18:32:39.016 [qtp1029917728-43] INFO  org.usfirst.ftc.server.Server - Time: 05/07/2021 06:32:39:016 PM, Session: node018l6x7j3scgbnkl087e1qb7o61, Route: http://localhost/event/hz_invitational_21/dashboard/teams/edit/ POST
+18:32:59.264 [qtp1029917728-54] INFO  org.usfirst.ftc.server.Server - Time: 05/07/2021 06:32:59:264 PM, Session: node018l6x7j3scgbnkl087e1qb7o61, Route: http://localhost/event/hz_invitational_21/dashboard/teams/edit/ POST
+18:34:48.635 [qtp1029917728-45] INFO  org.usfirst.ftc.server.Server - Time: 05/07/2021 06:34:48:635 PM, Session: node018l6x7j3scgbnkl087e1qb7o61, Route: http://localhost/event/hz_invitational_21/dashboard/teams/edit/ POST
+18:35:06.402 [qtp1029917728-43] INFO  org.usfirst.ftc.server.Server - Time: 05/07/2021 06:35:06:402 PM, Session: node018l6x7j3scgbnkl087e1qb7o61, Route: http://localhost/event/hz_invitational_21/dashboard/teams/edit/ POST
+18:35:22.569 [qtp1029917728-52] INFO  org.usfirst.ftc.server.Server - Time: 05/07/2021 06:35:22:569 PM, Session: node018l6x7j3scgbnkl087e1qb7o61, Route: http://localhost/event/hz_invitational_21/dashboard/teams/edit/ POST
+18:35:37.574 [qtp1029917728-43] INFO  org.usfirst.ftc.server.Server - Time: 05/07/2021 06:35:37:574 PM, Session: node018l6x7j3scgbnkl087e1qb7o61, Route: http://localhost/event/hz_invitational_21/dashboard/teams/edit/ POST
+18:35:51.620 [qtp1029917728-52] INFO  org.usfirst.ftc.server.Server - Time: 05/07/2021 06:35:51:620 PM, Session: node018l6x7j3scgbnkl087e1qb7o61, Route: http://localhost/event/hz_invitational_21/dashboard/teams/edit/ POST
+18:36:02.155 [qtp1029917728-43] INFO  org.usfirst.ftc.server.Server - Time: 05/07/2021 06:36:02:155 PM, Session: node018l6x7j3scgbnkl087e1qb7o61, Route: http://localhost/event/hz_invitational_21/dashboard/teams/edit/ POST
+18:36:13.207 [qtp1029917728-52] INFO  org.usfirst.ftc.server.Server - Time: 05/07/2021 06:36:13:207 PM, Session: node018l6x7j3scgbnkl087e1qb7o61, Route: http://localhost/event/hz_invitational_21/dashboard/teams/edit/ POST
+18:36:52.922 [qtp1029917728-41] INFO  org.usfirst.ftc.server.Server - Time: 05/07/2021 06:36:52:922 PM, Session: node018l6x7j3scgbnkl087e1qb7o61, Route: http://localhost/event/hz_invitational_21/dashboard/teams/edit/ POST
+18:37:58.905 [qtp1029917728-52] INFO  org.usfirst.ftc.server.Server - Time: 05/07/2021 06:37:58:904 PM, Session: node018l6x7j3scgbnkl087e1qb7o61, Route: http://localhost/event/hz_invitational_21/dashboard/teams/edit/ POST
+18:38:17.518 [qtp1029917728-54] INFO  org.usfirst.ftc.server.Server - Time: 05/07/2021 06:38:17:518 PM, Session: node018l6x7j3scgbnkl087e1qb7o61, Route: http://localhost/event/hz_invitational_21/dashboard/teams/edit/ POST
+18:38:33.486 [qtp1029917728-52] INFO  org.usfirst.ftc.server.Server - Time: 05/07/2021 06:38:33:486 PM, Session: node018l6x7j3scgbnkl087e1qb7o61, Route: http://localhost/event/hz_invitational_21/dashboard/teams/edit/ POST
+18:38:55.446 [qtp1029917728-54] INFO  org.usfirst.ftc.server.Server - Time: 05/07/2021 06:38:55:446 PM, Session: node018l6x7j3scgbnkl087e1qb7o61, Route: http://localhost/event/hz_invitational_21/dashboard/teams/edit/ POST
+18:39:15.826 [qtp1029917728-52] INFO  org.usfirst.ftc.server.Server - Time: 05/07/2021 06:39:15:826 PM, Session: node018l6x7j3scgbnkl087e1qb7o61, Route: http://localhost/event/hz_invitational_21/dashboard/teams/edit/ POST
+18:39:34.618 [qtp1029917728-43] INFO  org.usfirst.ftc.server.Server - Time: 05/07/2021 06:39:34:618 PM, Session: node018l6x7j3scgbnkl087e1qb7o61, Route: http://localhost/event/hz_invitational_21/dashboard/teams/edit/ POST
+18:39:39.806 [qtp1029917728-52] INFO  org.usfirst.ftc.server.Server - Time: 05/07/2021 06:39:39:806 PM, Session: node018l6x7j3scgbnkl087e1qb7o61, Route: http://localhost/event/hz_invitational_21/dashboard/ GET
